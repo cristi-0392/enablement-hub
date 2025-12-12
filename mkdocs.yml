@@ -12,9 +12,9 @@ theme:
     - content.code.copy
 
 nav:
-  - Home: index.md
-  - Logging: logging/index.md
-  - Training: training/index.md
+  - 🏠 Home: index.md
+  - 🪪 Logging: logging/index.md
+  - ✏️ Training: training/index.md
 
 markdown_extensions:
   - toc:
