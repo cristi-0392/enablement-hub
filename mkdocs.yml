@@ -3,9 +3,7 @@ site_name: Enablement Hub
 theme:
   name: material
   palette:
-    - scheme: slate
-      primary: indigo
-      accent: indigo
+    scheme: slate
   features:
     - navigation.sections
     - navigation.expand
