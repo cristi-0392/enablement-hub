@@ -23,5 +23,5 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
-  extra_css:
+extra_css:
   - assets/extra.css
