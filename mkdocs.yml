@@ -13,10 +13,8 @@ theme:
 
 nav:
   - Home: index.md
-  - Logging:
-      - Overview: logging/index.md
-  - Training:
-      - Overview: training/index.md
+  - Logging: logging/index.md
+  - Training: training/index.md
 
 markdown_extensions:
   - toc:
