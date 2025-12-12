@@ -1,9 +1,3 @@
 # Logging
 
-## Purpose
-Standards, examples, and troubleshooting for logging.
-
-## Topics
-- Guidelines
-- Templates
-- Common issues
+This section contains everything you need for logging in to the POC environment.
