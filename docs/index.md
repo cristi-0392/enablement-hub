@@ -1,3 +1,3 @@
-# Enablement Hub
+# ASML Microsoft Copilot Studio POC
 
-Welcome! Use the left navigation to browse **Logging** and **Training**.
+Welcome to the ASML Microsoft Copilot Studio POC.
