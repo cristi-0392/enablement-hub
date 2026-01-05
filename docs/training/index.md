@@ -24,14 +24,20 @@ Note: Using the default publisher is not considered best practice because you ha
 Your solution is created and currently empty. You can now start building an agent (or any other asset) by opening the Solution, navigating to **+ New** and choose the component type. Once saved it will automatically be added to the provisioned solution.  
 
 <img width="745" height="411" alt="image" src="https://github.com/user-attachments/assets/f8e1d5c6-d3d2-4e44-9df6-f73d7054f17f" />
+
+
+  
   
 
- 
+<br>
+<br>
 <br>
 
 **--- Agent development will be covered by the trainings starting January 8th ---**
 
  
+<br>
+<br>
 <br>
 
 Once the Agent has been built, tested and published, you can move on to deploy the Agent to the Test environment where you can scope it to your test users for functionality testing and feedback gathering.
