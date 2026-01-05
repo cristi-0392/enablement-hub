@@ -68,7 +68,7 @@ Once the request is approved/rejected it will be archived
 
 <img width="1798" height="410" alt="image" src="https://github.com/user-attachments/assets/caa84c23-5ee7-459e-8593-fdc5f641cab0" />
 
-After approval, the solution will land in the Test environment, the core-components and configurations will be read-only.
+After approval, the solution will land in the Test environment under Managed Solutions, the core-components and configurations will be read-only.
 
 <img width="1860" height="700" alt="image" src="https://github.com/user-attachments/assets/e9a8dcd7-efea-476f-bbf0-619804883481" />
 
@@ -86,6 +86,29 @@ In the dialogue box that opens, type the name of the Test user who does not have
 
 <img width="1567" height="813" alt="image" src="https://github.com/user-attachments/assets/5b9afbfb-c447-4fde-a833-a999321f7206" />
 
+Instruct the user to go to Copilot Studio, (s)he will find the Agent there and can interact with the agent in the Agent Tester side-pane
+
+<img width="1712" height="878" alt="image" src="https://github.com/user-attachments/assets/b4bfc336-d799-4a63-8d76-7cceea5ec7c2" />
+
+For the requested test users who DO HAVE an M365 Copilot license, the maker can share the agent by deploying it to Teams. To do so, open the Agent, navigate to the **Channels** tab, select **Teams and Microsoft 365 Copilot**, in the dialogue box that opens, unselect the "Make agent available in Microsoft 365 Copilot" and press **Add Channel**
+
+<img width="1580" height="798" alt="image" src="https://github.com/user-attachments/assets/51ddc4ba-4000-47b5-9548-387540705355" />
+
+Next, it is IMPORTANT for the maker to select Edit Details and further describe what the agent does, and instructions for the Test users how to interact and use the agent
+
+<img width="1583" height="875" alt="image" src="https://github.com/user-attachments/assets/403cb342-8423-4202-9927-266bd149960c" />
+
+<img width="1763" height="900" alt="image" src="https://github.com/user-attachments/assets/20be8537-f7c6-47f5-b39d-1c670246f71f" />
+
+Once the Teams integration is created, the maker will be prompted to select who to share it with. Click **Show my teammatest and shared users**
+
+<img width="1676" height="849" alt="image" src="https://github.com/user-attachments/assets/8fc1b6da-f226-4622-b41b-74855cd7d5d8" />
+
+In the new pop-up window, add the testers who do have an M365 Copilot license, they will automatically be granted Viewer permissions, click **Update**
+
+<img width="1766" height="905" alt="image" src="https://github.com/user-attachments/assets/a87eee98-ca29-4fa0-a7f0-a5399c33c5cc" />
+
+Your agent will now be submitted to an Teams Administrator to approve the deployment. After the approval from the Teams Admin Center it will take a couple of hourse before the agent becomes visible to the test users.
 
 
 
