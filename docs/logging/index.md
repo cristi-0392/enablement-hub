@@ -3,7 +3,7 @@
 This section contains everything you need for logging in and accessing your Copilot Studio POC environment.
 
  
-<br>
+<br> 
 
 <h1>👥 Create a new browser profile (Microsoft Edge) - Optional</h1>
 It's always good to have a separate browser profile for your work and for workshops like this. This way you can keep all of your credentials separate and not have to worry about logging out of your personal / work accounts. In the example we will be using Microsoft Edge, <b>instead you can also use any other Browser, just make sure to use a profile where you are not logged in with any other Microsoft Account!</b>
