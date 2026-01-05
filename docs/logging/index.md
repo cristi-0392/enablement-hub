@@ -36,7 +36,7 @@ It may prompt you to configure your new browser theme. If this happens, just sel
 
 <h1>🗝️ Log on to your account</h1>
 
-1. Go to <a href="https://make.powerapps.com">make.powerapps.com</a>
+1. Go to <a href="https://copilotstudio.microsoft.com">copilotstudio.microsoft.com</a>
    
 2. Use your enterprise credentials (ASML username/password) and sign in
 
