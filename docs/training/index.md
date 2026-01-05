@@ -33,6 +33,8 @@ Your solution is created and currently empty. You can now start building an agen
 <br>
 <br>
 
+<h1>✨ Develop an agent</h1>
+
 **--- Agent development will be covered by the trainings starting January 8th ---**
 
  
@@ -40,6 +42,7 @@ Your solution is created and currently empty. You can now start building an agen
 <br>
 <br>
 
+<h1>🧪 Deploy your agent to testers (approval required)</h1>
 Once the Agent has been built, tested and published, you can move on to deploy the Agent to the Test environment where you can scope it to your test users for functionality testing and feedback gathering.
 To move the agent from the Dev-environment to the Test-environment, go back to this Solution window and choose **Deploy Pipelines (rocket icon)** from the left hand menu
 
