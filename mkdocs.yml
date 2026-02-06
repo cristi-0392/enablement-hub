@@ -15,6 +15,7 @@ nav:
   - 🏠 Home: index.md
   - 🪪 Logging: logging/index.md
   - ✏️ Training: training/index.md
+  - 🧪 Testing: testing/index.md
 
 markdown_extensions:
   - toc:
