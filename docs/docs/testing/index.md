@@ -17,8 +17,7 @@ If you know the name of the Copilot Studio agent you're about to test, you can m
 
 In the next step, you'll be prompted by a dialogue box to add this agent to your Teams repository of tools. Click on **Add**. After a few seconds, you'll be informed that the agent was added successfully. Click **Open** to start interacting with it.  
 
-<img width="401" height="271" alt="Image" src="https://github.com/user-attachments/assets/d66cb404-9928-43e1-9abb-78fa39d9fcb8" />
-<img width="191" height="192" alt="Image" src="https://github.com/user-attachments/assets/bcfc48e7-3d08-4200-a901-0617caf67c19" />
+<img width="401" height="271" alt="Image" src="https://github.com/user-attachments/assets/ec6378c3-3b40-4ccf-8890-b1e5d6400717" /> &nbsp;&nbsp;&nbsp;&nbsp; <img width="191" height="192" alt="Image" src="https://github.com/user-attachments/assets/e2414c23-8949-42a7-a6e1-48bee19abc49" />
 
 Interact with your agent. 
 
@@ -26,5 +25,4 @@ Interact with your agent.
 
 For convenience, feel free to **Pin** your agent on the left-hand side navigation, for easy access. 
 
-<img width="222" height="377" alt="Image" src="https://github.com/user-attachments/assets/db8c0b26-8433-4a2d-9ed7-684d808dd842" />
-<img width="221" height="323" alt="Image" src="https://github.com/user-attachments/assets/ce545a0e-8988-43a5-872e-3615dc388a88" />
+<img width="222" height="377" alt="Image" src="https://github.com/user-attachments/assets/db8c0b26-8433-4a2d-9ed7-684d808dd842" /> &nbsp;&nbsp;&nbsp;&nbsp; <img width="221" height="323" alt="Image" src="https://github.com/user-attachments/assets/ce545a0e-8988-43a5-872e-3615dc388a88" />
