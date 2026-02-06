@@ -1,0 +1,4 @@
+/* Hide the site title text in the LEFT sidebar only */
+.md-nav__title {
+  display: none;
+}

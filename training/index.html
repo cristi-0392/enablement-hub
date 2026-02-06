@@ -1,0 +1,456 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../logging/">
+      
+      
+        <link rel="next" href="../docs/testing/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>✏️ Training - ASML MCS POC Enablement Hub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#training" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="ASML MCS POC Enablement Hub" class="md-header__button md-logo" aria-label="ASML MCS POC Enablement Hub" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ASML MCS POC Enablement Hub
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ✏️ Training
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="ASML MCS POC Enablement Hub" class="md-nav__button md-logo" aria-label="ASML MCS POC Enablement Hub" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    ASML MCS POC Enablement Hub
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🏠 Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../logging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🪪 Logging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ✏️ Training
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../docs/testing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    🔬 Testing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="training">Training<a class="headerlink" href="#training" title="Permanent link">&para;</a></h1>
+<p>Training materials and walkthroughs for the POC. This document will outline how to set up your environment for Agent development and how to use Copilot Studio</p>
+<p><br></p>
+<h1>📂 Create a solution</h1>
+<p>Best Practice for everything in the Power Platform (and therefore Copilot Studio): Work INSIDE solutions. They are great for organizing your customizations and some features only work here.</p>
+<p>Because of that our first step in the Copilot Studio portal is to navigate to <strong>Solutions</strong> under the [...]-Button on the left hand side</p>
+<p><img width="1231" height="672" alt="image" src="https://github.com/user-attachments/assets/dd720bed-8645-4bcc-98e9-18006e92012e" /></p>
+<p>After the Solutions portal opens, click <strong>+ New Solution</strong></p>
+<p><img width="1422" height="394" alt="image" src="https://github.com/user-attachments/assets/698cac5c-6894-4935-b974-c6e06e5d49f5" /></p>
+<p>In the dialog side-bar which opens, give your solution a meaningful name for the usecase and either choose the <strong>Default Publisher for orgxx (default)</strong> or create your own New Publisher. After entering the details, click <strong>Create</strong>
+Note: Using the default publisher is not considered best practice because you have no control about the technical prefix all your components will receive</p>
+<p><img width="348" height="518" alt="image" src="https://github.com/user-attachments/assets/31920667-baec-40fd-a0f8-af125334400a" /></p>
+<p>Your solution is created and currently empty. You can now start building an agent (or any other asset) by opening the Solution, navigating to <strong>+ New</strong> and choose the component type. Once saved it will automatically be added to the provisioned solution.  </p>
+<p><img width="745" height="411" alt="image" src="https://github.com/user-attachments/assets/f8e1d5c6-d3d2-4e44-9df6-f73d7054f17f" /></p>
+<p><br>
+<br>
+<br></p>
+<h1>✨ Develop an agent</h1>
+
+<p><strong>--- Agent development will be covered by the trainings starting January 8th ---</strong></p>
+<p><br>
+<br>
+<br></p>
+<h1>🚀 Deploy your agent to testers (approval required)</h1>
+<p>Once the Agent has been built, tested and published, you can move on to deploy the Agent to the Test environment where you can scope it to your test users for functionality testing and feedback gathering.
+To move the agent from the Dev-environment to the Test-environment, go back to this Solution window and choose <strong>Deploy Pipelines (rocket icon)</strong> from the left hand menu</p>
+<p><img width="324" height="413" alt="image" src="https://github.com/user-attachments/assets/b74bd1d6-c21d-4dc5-a72a-84ffd1754f35" /></p>
+<p>Click <strong>Deploy Here</strong> to start the process</p>
+<p><img width="939" height="711" alt="image" src="https://github.com/user-attachments/assets/efee428a-e6df-4ec7-b3af-173153bf4808" /></p>
+<p>On the next screen a new version will be automatically assigned to the solution and AI generated deployment notes.
+<strong>Important:</strong> It is of upmost importance that you type in the Deployment Notes the e-mail addresses of the users in scope for testing the agent, followed by by whether they have an M365 Copilot license or not. DO NOT SKIP THIS STEP!</p>
+<p><img width="1261" height="699" alt="image" src="https://github.com/user-attachments/assets/2591ae35-ede1-4d4f-9d09-fca74bef9982" /></p>
+<p><br></p>
+<h1>🧑‍🔬 Lead Ambassador: Review request and approve/reject Agent for deployment to test users</h1>
+<p>All Approvers (sector leads) will be informed via both Teams and Outlook of an initiated deployment. The first to approve/reject will be sufficient to cancel out the rest (first to respond logic).</p>
+<p><img width="1141" height="586" alt="image" src="https://github.com/user-attachments/assets/73848b20-1677-43a6-b73a-30e8675c93ec" /></p>
+<p>Once the request is approved/rejected it will be archived</p>
+<p><img width="1798" height="410" alt="image" src="https://github.com/user-attachments/assets/caa84c23-5ee7-459e-8593-fdc5f641cab0" /></p>
+<p>After approval, the solution will land in the Test environment under Managed Solutions, the core-components and configurations will be read-only.</p>
+<p><img width="1860" height="700" alt="image" src="https://github.com/user-attachments/assets/e9a8dcd7-efea-476f-bbf0-619804883481" /></p>
+<p>The original maker has access to this managed solution and can view its contents</p>
+<p><img width="1912" height="729" alt="image" src="https://github.com/user-attachments/assets/f8b8a137-c3da-4197-9cde-ebf97e43b0ca" /></p>
+<h1>🧪 Sharing the Agent with test users</h1>
+<p>For the requested test users who DO NOT HAVE an M365 Copilot license, the maker needs to share the agent through Copilot Studio so they can test it in the testing pane (similarly how the developer tests the agent while developing). Do so by making sure you are in the Test environment, open the deployed Solution and then the Agent. You'll be directed to the Copilot Studio portal, select the agent and click <strong>Share</strong></p>
+<p><img width="1796" height="800" alt="image" src="https://github.com/user-attachments/assets/7e1d2d1d-db78-42ff-ae07-0eb188013dae" /></p>
+<p>In the dialogue box that opens, type the name of the Test user who does not have an M365 Copilot license. Add it, click on it and select <strong>Editor</strong> access. Click <strong>Update</strong></p>
+<p><img width="1567" height="813" alt="image" src="https://github.com/user-attachments/assets/5b9afbfb-c447-4fde-a833-a999321f7206" /></p>
+<p>Instruct the user to go to Copilot Studio, (s)he will find the Agent there and can interact with the agent in the Agent Tester side-pane</p>
+<p><img width="1712" height="878" alt="image" src="https://github.com/user-attachments/assets/b4bfc336-d799-4a63-8d76-7cceea5ec7c2" /></p>
+<p>For the requested test users who DO HAVE an M365 Copilot license, the maker can share the agent by deploying it to Teams. To do so, open the Agent, navigate to the <strong>Channels</strong> tab, select <strong>Teams and Microsoft 365 Copilot</strong>, in the dialogue box that opens, unselect the "Make agent available in Microsoft 365 Copilot" and press <strong>Add Channel</strong></p>
+<p><img width="1580" height="798" alt="image" src="https://github.com/user-attachments/assets/51ddc4ba-4000-47b5-9548-387540705355" /></p>
+<p>Next, it is IMPORTANT for the maker to select Edit Details and further describe what the agent does, and instructions for the Test users how to interact and use the agent</p>
+<p><img width="1583" height="875" alt="image" src="https://github.com/user-attachments/assets/403cb342-8423-4202-9927-266bd149960c" /></p>
+<p><img width="1763" height="900" alt="image" src="https://github.com/user-attachments/assets/20be8537-f7c6-47f5-b39d-1c670246f71f" /></p>
+<p>Once the Teams integration is created, the maker will be prompted to select who to share it with. Click <strong>Show my teammatest and shared users</strong></p>
+<p><img width="1676" height="849" alt="image" src="https://github.com/user-attachments/assets/8fc1b6da-f226-4622-b41b-74855cd7d5d8" /></p>
+<p>In the new pop-up window, add the testers who do have an M365 Copilot license, they will automatically be granted Viewer permissions, click <strong>Update</strong></p>
+<p><img width="1766" height="905" alt="image" src="https://github.com/user-attachments/assets/a87eee98-ca29-4fa0-a7f0-a5399c33c5cc" /></p>
+<p>Your agent will now be submitted to an Teams Administrator to approve the deployment. After the approval from the Teams Admin Center it will take a couple of hourse before the agent becomes visible to the test users.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.expand", "toc.integrate", "search.suggest", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
