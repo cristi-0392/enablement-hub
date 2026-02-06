@@ -27,5 +27,4 @@ Interact with your agent.
 For convenience, feel free to **Pin** your agent on the left-hand side navigation, for easy access. 
 
 <img width="222" height="377" alt="Image" src="https://github.com/user-attachments/assets/db8c0b26-8433-4a2d-9ed7-684d808dd842" />
-
 <img width="221" height="323" alt="Image" src="https://github.com/user-attachments/assets/ce545a0e-8988-43a5-872e-3615dc388a88" />
