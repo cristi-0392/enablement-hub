@@ -1,3 +1,2 @@
-## 🔬 Testing
 
 Content coming soon.
