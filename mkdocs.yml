@@ -16,6 +16,7 @@ nav:
   - 🪪 Logging: logging/index.md
   - ✏️ Training: training/index.md
   - 🔬 Testing: docs/testing/index.md
+  - 📦 Solution Export: solution-export/index.md
 
 markdown_extensions:
   - toc:
