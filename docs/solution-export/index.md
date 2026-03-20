@@ -39,6 +39,12 @@ Your solution is now downloaded and saved as a .zip file to your local machine, 
 
 <img width="1119" height="298" alt="Image" src="https://github.com/user-attachments/assets/94d16039-07a3-4527-b10f-ff84d7e5e7ec" />
 
+As a final step, navigate to the designated folder in the [Copilot Studio Teams General channel](https://asml.sharepoint.com/:f:/r/sites/CopilotStudioAgentsPoC/Shared%20Documents/General/Copilot%20Studio%20PoC%20-%20Agents%20Exports%20-%20March%2026?csf=1&web=1&e=AcoC2T&xsdata=MDV8MDJ8Y2ZvZ29yb3NAbWljcm9zb2Z0LmNvbXxjNWJlODVjZjdiNjg0MmQ0MzE0NDA4ZGU4NjVjZjA3Mnw3MmY5ODhiZjg2ZjE0MWFmOTFhYjJkN2NkMDExZGI0N3wxfDB8NjM5MDk1OTMwOTQ5MzY3NzE2fFVua25vd258VFdGcGJHWnNiM2Q4ZXlKRmJYQjBlVTFoY0draU9uUnlkV1VzSWxZaU9pSXdMakF1TURBd01DSXNJbEFpT2lKWGFXNXpNaUlzSWtGT0lqb2lUV0ZwYkNJc0lsZFVJam95ZnE9PXwwfHx8&sdata=WjNmV0tDOHRBekEyNVlXNzdTNUlqbXhobEs3RnJxN3ZyT0k1bm5mQXhUST0%3d) and upload your solution there.
+
+<img width="395" height="167" alt="Image" src="https://github.com/user-attachments/assets/a3d3fcb4-2915-4a9e-a12c-0d9cd7d6795d" />
+
+<img width="681" height="733" alt="Image" src="https://github.com/user-attachments/assets/988d0ceb-7d3e-4b84-a3c4-e399ea9168ae" />
+
 
 <br>
 <br>
